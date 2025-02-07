@@ -1,0 +1,145 @@
+/* CSS reset from https://www.joshwcomeau.com/css/custom-css-reset/ */
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* Google font styles */
+
+  .spectral-extralight {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .spectral-light {
+    font-family: "Spectral", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .spectral-regular {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .spectral-medium {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .spectral-semibold {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .spectral-bold {
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .spectral-extrabold {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .spectral-extralight-italic {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .spectral-light-italic {
+    font-family: "Spectral", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .spectral-regular-italic {
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .spectral-medium-italic {
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .spectral-semibold-italic {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .spectral-bold-italic {
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .spectral-extrabold-italic {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+
+  /* My styles */
+
+  body {
+    background: url(../public/paper.jpg) fixed no-repeat;
+    backdrop-filter: blur(1px) opacity(.9) saturate(0.8);
+    font-family: "Spectral", serif;
+    color: #333;
+  }
